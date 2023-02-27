@@ -39,7 +39,7 @@
 
 @keyframes typing {
   from { width: 0 }
-  to { width: 70vw }
+  to { width: 50vw }
 }
 
 
@@ -63,7 +63,7 @@
   width: 100vw;
   height: 80vh;
   background-image: url(aboutpage.png); 
-  background-position: center;
+  background-size: cover;
 }
 
 #bannerimagearticles {
@@ -74,7 +74,7 @@
   width: 100vw;
   height: 80vh;
   background-image: url(articles.png); 
-  background-position: center;
+  background-size: cover;
 }
 
 
@@ -83,6 +83,7 @@
   display: flex;
   flex-wrap: wrap;
   font-weight: lighter;
+  font-size: 2vw;
   width: 90vw;
   margin-left: 5vw;
   padding-top: 80vh;
@@ -113,55 +114,61 @@
 
 /* About Page CSS */
 .aboutbackground {
-  display: block;
-  width: 85%;
-  margin-left: 100px;
-  padding-top: 525px;
-  padding-bottom: 25px;
+  display: flex;
+  width: 85vw;
+  margin-left: 9vw;
+  padding-top: 80vh;
+  padding-bottom: 2vh;
+  font-size: 2.5vw;
   color: #1870D5;
 }
 
 .aboutbgparagraph {
-  display: block;
-  width: 85%;
-  margin-left: 100px;
+  display: flex;
+  width: 85vw;
+  margin-left: 9vw;
+  font-size: 1.5vw;
   font-weight: lighter;
-  word-wrap: break-word;
-  padding-bottom: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 2vh;
 }
 
 .aboutwhy {
-  display: block;
-  width: 85%;
-  margin-left: 100px;
-  padding-bottom: 25px;
+  display: flex;
+  width: 85vw;
+  margin-left: 9vw;
+  padding-bottom: 2vh;
+  font-size: 2.5vw;
   color: #1870D5;
 }
 
 .aboutwhyparagraph {
-  display: block;
-  width: 85%;
-  margin-left: 100px;
+  display: flex;
+  width: 85vw;
+  margin-left: 9vw;
+  font-size: 1.5vw;
   font-weight: lighter;
-  word-wrap: break-word;
-  padding-bottom: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 2vh;
 }
 
 .aboutcalltoaction {
-  display: block;
-  width: 85%;
-  margin-left: 100px;
-  padding-bottom: 25px;
+  display: flex;
+  width: 85vw;
+  margin-left: 9vw;
+  padding-bottom: 2vh;
+  font-size: 2.5vw;
   color: #1870D5;
 }
 
 .aboutctaparagraph {
-  display: block;
-  width: 85%;
-  margin-left: 100px;
+  display: flex;
+  width: 85vw;
+  margin-left: 9vw;
+  font-size: 1.5vw;
   font-weight: lighter;
-  word-wrap: break-word;
-  padding-bottom: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 2vh;
 }
 
 
@@ -187,7 +194,6 @@
 }
 
 a:hover { color: #1870D5; }
-
 
 /* General CSS */
 body {
